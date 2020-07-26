@@ -76,7 +76,11 @@ const SignUpScreen = ({navigation}) => {
 
   return (
     <View style={styles.container}>
-      <StatusBar backgroundColor="#009387" barStyle="light-content" />
+      <StatusBar
+        backgroundColor="#d40856"
+        //backgroundColor="#009387"
+        barStyle="light-content"
+      />
       <View style={styles.header}>
         <Text style={styles.text_header}>
           {`Welcome!
@@ -190,7 +194,8 @@ Register Now`}
             <View style={{marginTop: 30, width: '40%'}}>
               <TouchableOpacity>
                 <LinearGradient
-                  colors={['#08d4c4', '#01ab9d']}
+                  colors={['#d40856', '#ab015c']}
+                  //colors={['#08d4c4', '#01ab9d']}
                   style={styles.signin}>
                   <Text style={[styles.textSign, {color: '#fff'}]}>
                     Sign Up
@@ -201,7 +206,8 @@ Register Now`}
             <View style={{marginTop: 30, width: '40%'}}>
               <View
                 style={{
-                  borderColor: '#08d4c4',
+                  borderColor: '#d40856',
+                  //borderColor: '#08d4c4',
                   borderWidth: 2,
                   borderRadius: 10,
                 }}>
@@ -213,7 +219,7 @@ Register Now`}
                   colors={['#08d4c4', '#01ab9d']}
                   style={styles.signin}> */}
                   <Text
-                    style={[styles.textSign, {color: '#08d4c4'}]}
+                    style={[styles.textSign, {color: '#d40856'}]}
                     // {color: '#fff'}]}
                   >
                     Sign In
@@ -232,7 +238,8 @@ Register Now`}
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#009387',
+    //backgroundColor: '#009387',
+    backgroundColor: '#d40856',
   },
   header: {
     flex: 1,
